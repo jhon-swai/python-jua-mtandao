@@ -1,8 +1,13 @@
 import re
+
 vodacom = re.compile(r'(76)(\d\d\d)(\d\d\d\d) | (75)(\d\d\d)(\d\d\d\d)')
+
 tigo = re.compile(r'(71)(\d\d\d)(\d\d\d\d) | (65)(\d\d\d)(\d\d\d\d)')
+
 airtel = re.compile(r'(78)(\d\d\d)(\d\d\d\d) | (68)(\d\d\d)(\d\d\d\d)')
+
 input_number = input("Enter the number: +255 ")
+
 def checkNumber(input_number_check):
     global tigo
     global airtel

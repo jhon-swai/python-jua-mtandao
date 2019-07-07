@@ -1,18 +1,16 @@
-#Airtel :078 068
-#Vodacom:075 076
-#Tigo :071 :065
-#halotel 062
-# TTCL 073
-
 import re
 
 vodacom = re.compile(r'(76)(\d\d\d)(\d\d\d\d)')
 vodacom2 = re.compile(r'(75)(\d\d\d)(\d\d\d\d)')
+
 tigo = re.compile(r'(71)(\d\d\d)(\d\d\d\d)')
 tigo2 = re.compile(r'(65)(\d\d\d)(\d\d\d\d)')
+
 airtel = re.compile(r'(78)(\d\d\d)(\d\d\d\d)')
 airtel2 = re.compile(r'(68)(\d\d\d)(\d\d\d\d)')
+
 halotel = re.compile(r'(62)(\d\d\d)(\d\d\d\d)')
+
 ttcl = re.compile(r'(73)(\d\d\d)(\d\d\d\d)')
 
 
@@ -74,5 +72,3 @@ while True:
             print(checkNumber(str(input_number)))
         except Exception:
             print('You have entered invalid data')
-        
-
