@@ -1,4 +1,4 @@
-w<h1 align="center">Jua Mtandao</h1>
+<h1 align="center">Jua Mtandao</h1>
 <p align="center">JuaMtandao is a python tool that determines the carrir of a phone number, made with  Python. Made with ❤️ in Tanzania.</p>
 
 <p align="center">
@@ -18,7 +18,7 @@ JuaMtandao is in light development right now,
 
 ## Phone Numbers
 
-| Carrirer| Number|
+| Carrier| Number|
 ---|---
 | Airtel  |078 | 068|
 | Vodacom |075 076|
@@ -39,5 +39,5 @@ In development v.0.1.0
 and [@AlphaOLomi](https://alphaolomi.com)
 
 
-## Lisence
-MIT Lisence
+## License
+MIT License
