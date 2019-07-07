@@ -26,12 +26,17 @@ def checkNumber(input_number_check):
     
     vod = vodacom.search(input_number_check)
     vod2 = vodacom2.search(input_number_check)
+    
     tig = tigo.search(input_number_check) 
     tig2 = tigo2.search(input_number_check)
+    
     air =airtel.search(input_number_check)
     air2 =airtel2.search(input_number_check)
+    
     halo = halotel.search(input_number_check)
+    
     ttc = ttcl.search(input_number_check)
+    
     if air == tig and tig ==vod and air == vod and air2 == vod2 and vod2 == tig2 and tig2 == air2 and ttc ==halo:
         return 'No match'
         
