@@ -1,18 +1,16 @@
-#Airtel :078 068
-#Vodacom:075 076
-#Tigo :071 :065
-#halotel 062
-# TTCL 073
-
 import re
 
 vodacom = re.compile(r'(76)(\d\d\d)(\d\d\d\d)')
 vodacom2 = re.compile(r'(75)(\d\d\d)(\d\d\d\d)')
+
 tigo = re.compile(r'(71)(\d\d\d)(\d\d\d\d)')
 tigo2 = re.compile(r'(65)(\d\d\d)(\d\d\d\d)')
+
 airtel = re.compile(r'(78)(\d\d\d)(\d\d\d\d)')
 airtel2 = re.compile(r'(68)(\d\d\d)(\d\d\d\d)')
+
 halotel = re.compile(r'(62)(\d\d\d)(\d\d\d\d)')
+
 ttcl = re.compile(r'(73)(\d\d\d)(\d\d\d\d)')
 
 
@@ -28,12 +26,17 @@ def checkNumber(input_number_check):
     
     vod = vodacom.search(input_number_check)
     vod2 = vodacom2.search(input_number_check)
+    
     tig = tigo.search(input_number_check) 
     tig2 = tigo2.search(input_number_check)
+    
     air =airtel.search(input_number_check)
     air2 =airtel2.search(input_number_check)
+    
     halo = halotel.search(input_number_check)
+    
     ttc = ttcl.search(input_number_check)
+    
     if air == tig and tig ==vod and air == vod and air2 == vod2 and vod2 == tig2 and tig2 == air2 and ttc ==halo:
         return 'No match'
         
@@ -74,5 +77,3 @@ while True:
             print(checkNumber(str(input_number)))
         except Exception:
             print('You have entered invalid data')
-        
-
