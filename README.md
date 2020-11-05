@@ -18,15 +18,23 @@ JuaMtandao is in light development right now,
 
 ## Phone Numbers
 
-| Carrier| Number|
----|---
-| Airtel  |078 | 068|
-| Vodacom |075 076|
-| Tigo    |071 065|
-| Halotel |062    |
-| TTCL    |073    |
+| Number | Carrier |
+| 62	| Halotel (Viettel) |
+| 65	| TIGO (Mobitel) |
+| 66	| Smile Communications Tanzania Limited |
+| 67	| TIGO (Mobitel) |
+| 68	| Airtel Tanzania Limited |
+| 69	| Airtel Tanzania Limited |
+| 71	| TIGO (Mobitel) |
+| 73	| TTCL Tanzania Telecommunications Company Ltd |
+| 74	| Vodacom (Celtel) |
+| 75	| Vodacom (Celtel) |
+| 76	| Vodacom (Celtel) |
+| 77	| Zantel (Zanzibar Telecom Ltd) |
+| 78	| ZAIN |
 
-
+## Source of information
+[@Wikipedia](https://sw.wikipedia.org/wiki/Namba_za_simu_Tanzania)
 
 
 ## Status
