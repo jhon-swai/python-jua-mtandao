@@ -19,6 +19,7 @@ JuaMtandao is in light development right now,
 ## Phone Numbers
 
 | Number | Carrier |
+| -------| ------- |
 | 62	| Halotel (Viettel) |
 | 65	| TIGO (Mobitel) |
 | 66	| Smile Communications Tanzania Limited |
